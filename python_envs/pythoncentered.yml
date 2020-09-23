@@ -1,0 +1,38 @@
+name: pythoncentered
+
+channels:
+    - bioconda
+    - conda-forge
+    - r
+    - rdonnelly
+    - defaults
+    - cran
+
+dependencies:
+    #Python
+    - python==3.7
+    - jupyter
+    - pandas
+    - scipy 
+    - matplotlib
+    - numpy
+    - scipy
+    - umap-learn
+    - scanpy
+    - tensorflow
+    - keras
+    - datashader
+    - pip:
+      - mnnpy
+      - fa2
+      - holowviews
+      - xlwt
+      - xlrd
+      - hvplot
+      - bioinfokit
+      - goatools
+      - localreg
+      - plotly
+      - biopython
+      - mplcyberpunk
+      - pandas-datareader
