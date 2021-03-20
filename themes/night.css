@@ -104,6 +104,19 @@ hr {
 
 h1,
 h2,
+h3{
+    margin-left: -30px !important;
+    /* text-indent: -30px;*/
+}
+
+h4,
+h5,
+h6{
+    margin-left: -20px !important;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -117,8 +130,7 @@ h6 {
     padding: 0;
     color: #DEDEDE;
     margin-bottom: 0.6rem !important;
-    margin-left: -20px;
-    /* text-indent: -30px;
+
 }
 
 h1 {
@@ -153,6 +165,8 @@ h3 {
     /* 24px */
     letter-spacing: -1px;
     font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 h4 {
@@ -242,6 +256,8 @@ sup.md-footnote {
 p {
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+    color: white;
+    font-weight: bolder;
 }
 
 p,
@@ -309,6 +325,7 @@ th,
 dt,
 strong {
     font-weight: bold;
+    color: #b2f4e2;
 }
 
 i,
@@ -361,11 +378,20 @@ pre.md-fences {
     border-right: 1px solid transparent;
 }
 
+.CodeMirror-code pre{
+    font-size: 10px;
+}
+
 .enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
 .enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
 .enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
     bottom: -2.2em;
     right: 4px;
+}
+
+code {
+    color: red;
+    font-size: 10px;
 }
 
 code,
@@ -419,7 +445,7 @@ b,
 th,
 dt,
 strong {
-    color: #DEDEDE;
+    color: #b2f4e2;
     /* variable */
 }
 
