@@ -1,0 +1,13 @@
+name: cybersec
+
+dependencies:
+    #Python
+    - python
+    - jupyter
+    - pandas
+    - scipy 
+    - matplotlib
+    - numpy
+    - scipy
+    - pip:
+      - mechanize
