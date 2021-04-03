@@ -1,0 +1,11 @@
+name: phys
+
+dependencies:
+    #Python
+    - jupyter
+    - pandas
+    - scipy 
+    - matplotlib
+    - numpy
+    - pip:
+      - pandas-datareader

@@ -1,0 +1,12 @@
+name: webdev
+
+dependencies:
+    #Python
+    - jupyter
+    - pandas
+    - scipy 
+    - matplotlib
+    - numpy
+    - pip:
+      - django
+      - flask
