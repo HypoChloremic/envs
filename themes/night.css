@@ -196,6 +196,24 @@ h6 {
     color: white;
 }
 
+.md-table {
+    font-size: 10px;
+}
+
+.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
+    color: #93fbdf;
+}
+
+.cm-s-typora-default .cm-variable-1, .cm-s-typora-default .cm-variable-2 {
+    color: white;
+}
+
+.cm-header, .cm-strong {
+    font-weight: 700;
+    color: #9dffc5 !important;
+}
+
+
 @media (min-width: 980px) {
     h3.md-focus:before,
     h4.md-focus:before,
